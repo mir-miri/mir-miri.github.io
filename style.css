@@ -1,0 +1,292 @@
+body {
+ background-color:#070808;
+ padding:0;
+ margin:0;
+ font-family: 'Arvo', serif;
+-webkit-touch-callout: none; 
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none; 
+    -ms-user-select: none;             
+    user-select: none; 
+}
+}
+
+#zxc {
+    height:320px;
+}
+
+@media screen and (max-width: 900px) {
+#zxc{
+    height:620px;
+    }
+}
+
+.logo {
+  margin-top: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%; 
+}
+
+@media screen and (max-width: 900px) {
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+    }
+}
+
+
+button{
+  border:2px solid;
+  background-color:transparent;
+  color: white;
+  padding: 8px;
+  text-align: center;
+  display: inline-block;
+  font-family: 'Arvo', serif;
+  font-size: 15px;
+  margin: 4px 0px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition:0.4s;
+  height:40px;
+  float: center;  
+}
+
+.buttontype1{
+  width:25%;
+
+}
+
+.buttontype2.buttontype3{
+  width:100px;
+}
+
+.buttontype1:hover{
+  background-color: #FFFFFF ;
+  color: #070808;
+  text-decoration: underline overline;
+  text-decoration-color: black;
+}
+
+.buttontype2:hover{
+  background-color: #FFFFFF;
+  color: orange;
+  text-decoration: underline overline;
+  text-decoration-color: orange;
+}
+
+.buttontype3:hover{
+  background-color: #FFFFFF;
+  color: #8989e0;
+  text-decoration: underline overline;
+  text-decoration-color: #8989e0;
+}
+
+.buttontype4{
+  color: #2e3642;
+  padding: 8px;
+  margin-top:10px;
+  margin-left:10px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition:0.4s;
+  height:40px;
+  width: ;
+}
+
+.buttontype4:hover{
+  background-color: #2e3642;
+  color: #d9e9ff;
+  text-decoration: underline overline;
+  text-decoration-color: #d9e9ff;
+  height:40px;
+  width: ;
+}
+
+.monkay {
+ text-align: center;
+}
+
+ p {
+color: white ;
+ text-align: Center;
+}
+
+.harder {
+ margin-left:auto;
+ margin-right:auto;
+ width:100%;
+}
+
+.kk{
+ width: 95%;
+ height: 300px;
+ float: both;
+ text-align: center;
+ border:solid;
+ border-color:white;
+ border-radius:10px;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top:10px;
+}
+
+.kik{
+ width: 95%;
+ height:;
+ float: both;
+ text-align: left;
+ border:solid;
+ border-color:white;
+ border-radius:10px;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top:10px;
+ border:solid;
+ border-color:black;
+}
+
+#box2{  
+ background:#ababab;
+ background-image: linear-gradient(130deg, #453f61, #8989e0, #b2b2fe, #f5f5fe);
+}
+
+#box3{  
+ background:#ababab;
+ background-image: linear-gradient(-130deg, #f5f5fe, #fe8e39, #f25d5d);
+}
+
+
+@media screen and (min-width: 1080px) {
+#box2 {
+width: 47.5%;
+float: left;
+margin-left: 1%;
+margin-right:0;
+padding-right:0; 
+}
+}
+
+@media screen and (min-width: 1080px) {
+#box3 {
+width: 47.5%;
+float: right;
+margin-right: 1%;
+margin-left: 0;
+padding-left:0;
+background-image: linear-gradient(-130deg, #f25d5d, #fe8e39, #f5f5fe);
+}
+}
+
+#box4{    
+ background-image: url('https://cdn.discordapp.com/attachments/708603612502425692/733679546070728804/unknown.png');
+ float: center;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: 100% 100%;
+ border-color:black;    
+}
+
+#pentricks{
+  margin-top: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%; 
+  border: transparent;
+  border-radius:10px;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 900px) {
+#pentricks{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+    }
+}
+
+#chwanged{
+  margin-top: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%; 
+  border: transparent;
+  border-radius:10px;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 900px) {
+#chwanged{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+    }
+}
+
+.benene{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: both;
+  margin-top: 10px;
+  width: 100%;
+}
+
+#--{
+ margin-left: auto;
+ margin-right: auto;
+ margin-top:8px; 
+ margin-bottom:8px;
+ text-align: center;}
+
+ .jojo{
+ width: 21.5%;
+ height: 30px;
+ text-align: center;
+ border:solid;
+ border-color:white;
+ border-radius:10px;
+ margin-left: auto;
+ margin-right: auto;
+ margin:%;
+}
+
+@media screen and (max-width: 1080px) {
+.jojo {
+    margin-right:1%;
+    margin-left:1%;
+    margin-bottom:2%;
+    }
+}
+    
+.omfl{
+    height: 400px;
+}
+
+#leboob{
+float: left;
+}#lebooob{
+float: left;
+}#lebooooob{
+float: right;
+}#leboooooob{
+float: right;}
+
+
+#leflushe{
+float: left;
+}#leflushee{
+float: left;
+}#leflusheee{
+float: right;
+}#leflusheeee{
+float: right;}
