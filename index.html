@@ -1,17 +1,18 @@
+
 <html><head>
 
  
   <title>A fuvking Home Page</title> 
   <meta charset="UTF-8"> 
-  <meta name="Creator" content="Ikhlas"> 
+  <meta name="Creator" content="the names Ikhlas"> 
   <meta name="keywords" content="h e l l o"> 
-  <meta name="Description" content="idek dude, its just meh"> 
+  <meta name="Description" content="idek dude, its just cool"> 
   <!--for mobile plebians--> 
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <!--because i wanted my own discord embedded--> 
   <meta property="og:title" content="it's just a website, ain't it?"> 
   <meta property="og:type" content="website"> 
-  <meta property="og:url" content="https://mir-miri.github.io/index"> 
+  <meta property="og:url" content="https://7lfj08.mimo.run/"> 
   <meta property="og:image" content="https://cdn.discordapp.com/attachments/730899219417661572/732191991173087322/20200713_120735.png"> 
   <meta property="og:description" content="if this works I'll be shitting myself"> 
   <meta property="og:site_name" content="I am gassed rn"> 
@@ -25,13 +26,12 @@
   <!-- Schema.org. Google+ --> 
   <meta itemprop="name" content="The Name or Title Here"> 
   <meta itemprop="description" content="This is the page description"> 
-  <meta itemprop="image" content=""> 
+  <meta itemprop="image" content="http://www.example.com/image.jpg"> 
   <!-- .CSS and .JS for later --> 
   <link href="https://fonts.googleapis.com/css2?family=Arvo&amp;display=swap" rel="stylesheet"> 
   <link rel="stylesheet" href="style.css"> 
   <script src="script.js"></script> 
   <link rel="icon" href="https://cdn.discordapp.com/attachments/730899219417661572/732191991173087322/20200713_120735.png"> 
-  <link rel="stylesheet" href="styles.css"> 
 
 
 </head><body> 
@@ -51,18 +51,20 @@
 }       
 
 body{
+ color: transparent;
  background: linear-gradient(2deg, #fde796, #fbe281, #1d8aa5, #1d496c, rgb(7 38 63));
  background-size: 600% 150%;
  animation: lkd 30s ease infinite;}
-      
+     
 
-.lucky-mistake{			
+
+
+.lucky-mistake {	
  text-align: center;
- color: white;
+ color: transparent !important;
  box-shadow: 0 0 44px 30px  #b284be;
- border-radius: 40px;
- border: solid;
- overflow: hidden;
+ border-radius: 4000000px;
+ border: solid white;
  background: #a178b4;
  background-size: 100% 100%;
  position: absolute;
@@ -70,9 +72,76 @@ body{
  left: 50%;
  transform : translateX(-50%) translateY(-50%);
  text-align: center;
- padding: 10px;
- overflow: hidden;
+ height:20px;
+ padding:10px;
+ width:20px;
+ transition-property: width,height,transform,background,font-size,opacity;
+ transition-duration: 1s;
+ overflow:scroll;
 }
+
+div.lucky-mistake:hover {
+ border-radius: 30px;
+ background: linear-gradient(2deg, #434686, #68578f, #10235a, #010d33, #04061f);
+ background-size: 600% 150%;
+ animation: lkd 30s ease infinite;
+ width:90%;
+ height:-webkit-fill-available;
+ color: #fff !important;
+ border: ;
+ box-shadow: 0 0 44px 30px  #434686;
+}
+
+.ujuu{
+ text-align: center;
+ color: white ;top: 50%;
+ left: 50%;
+ transform : translateX(-50%) translateY(-50%);
+ text-align: center;
+ height:20px;
+ padding:10px;
+ width:20px;
+ overflow: hidden;
+ transition-property: width,height,transform,background,font-size,opacity;
+ transition-duration: 1s;
+ border-radius: 4000000px;
+ background: #a178b4;
+ position: absolute;
+ background-size: 100% 100%;
+ text-align: center;
+ color: transparent !important;
+ box-shadow: 0 0 44px 30px  #b284be;
+ border-radius: 4000000px;
+ border: solid white;
+ background: #a178b4;
+ background-size: 100% 100%;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform : translateX(-50%) translateY(-50%);
+ text-align: center;
+ height:10px;
+ padding:10px;
+ width:10px;
+ overflow: hidden;
+ transition-property: width,height,transform,background,font-size,opacity;
+ transition-duration: 1s;
+    }
+    
+
+
+.lucky-mistake p{	
+ text-align: center;
+ overflow: hidden;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform : translateX(-50%) translateY(-50%);
+ margin:auto;
+ display: ;
+ font-size: calc(16px + 6 * ((100vw - 320px) / 680))
+}
+
 
 .fillers {
  font-size: 80px;
@@ -173,15 +242,68 @@ body{
  color: #2f4f4f;
 }
 
+.poi   {
+ color: white;
+ margin: auto;
+ padding: auto;
+ height: -webkit-fill-available;
+ z-index: 20;
+}
+.poi:hover   {
+ color: #6b7cc1;
+ height: -webkit-fill-available;
+}
+   
+.qoi   {
+ color: white;
+ margin: auto;
+ padding: auto;
+ height: -webkit-fill-available;
+ z-index: 20;
+ display:none;
+}
+.qoi:hover   {
+ color: #6b7cc1;
+ height: -webkit-fill-available;
+}
 
 
+.shinigami {
+ width: auto;
+ height: auto;
+ margin: auto;
+ margin-top: 15%;
+ text-align:centre;
+ transition:1s;
+ z-index:123;
+ display:none;
+    }
 
-
+.shinigami:hover {
+ border:none;
+ background-color:  #a178b4 ;
+ color:  #fff;
+ text-decoration: underline overline;
+ text-decoration-color: #fff;
+    }
 @media only screen and (max-width: 600px){
 
+.ujuu{display:none;
+    }
+    
+#12{
+ display:flex;
+    }
+    
+.shinigami{
+ margin:0px;
+ display:initial;
+ padding:10px;
+    }
+    
 .insomnia{
  padding:auto;
- margin:auto !important;
+ margin:auto;
  height: 22px;
  border-bottom: 1px solid transparent;
  transition: border-bottom 0.5s;
@@ -215,32 +337,39 @@ body{
  position:relative;
     }
 
-.lucky-mistake{			
- text-align: center;
- color: white;
- box-shadow: 0 0 44px 30px  #b284be;
- border-radius: 40px;
- border: solid;
- background: #a178b4;
- background-size: 100% 100%;
- position: relative;
- overflow: hidden;
- width:0%;
- height:0%;
- transform : translateX(-50%) translateY(0%);
- top: 0%;
- left: 5%;
- float: both;
- text-align: center;
- border: solid;
- border-color: white;
- border-radius: 10px;
- margin-left: auto;
- margin-right: auto;
- margin-top: 30px;
- z-index:3;
-}
+.lucky-mistake{
+    text-align: center;
+    color: white;
+    box-shadow: 0 0 44px 30px #b284be;
+    border-radius: 40px !important;
+    border: solid;
+    background: #a178b4;
+    background-size: 100% 100%;
+    position: relative;
+    overflow: hidden;
+    width: 90%;
+    height:auto;
+    transform: translateX(-0%) translateY(0%);
+    top: 0%;
+    left: 0%;
+    float: both;
+    text-align: center;
+    border: solid;
+    border-color: white;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    z-index: 3;
+    }
 
+div.lucky-mistake:hover {
+    
+    
+    }
+    
+    
 .unfortnuante-navigatiobefvg{			
  text-align: center;
  color: white;
@@ -254,14 +383,14 @@ body{
  position: absolute;
  height:auto;
  width:90%;
- top:-61%;
+ top:auto;
  left: 50%;
- transform : translateX(-50%) translateY(-50%);
+ transform : translateX(-50%);
  float: both;
  text-align: center;
  margin-left: auto;
  margin-right: auto;
- margin-top:0px;
+ margin-top:-40px;
  margin-bottom:0px;
  z-index:123;
  display: flex;
@@ -290,55 +419,240 @@ body{
  height: auto;
  overflow: hidden;
     }
-
+    
 .pp{
  margin-top:40px;
     }
+    
+ 
+    }
 
+
+table, th, td {
+ margin:auto;
+ width:100%;
+ color:white;
+}
+
+table{
+ border-top: 1px solid white;
+ margin-top: 10px;
+}
+.oiuyhgt, .poiuyhtred, .dea{
+ width:100%;
+ display:none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none; 
+ -ms-user-select: none;             
+ user-select: none; 
+ z-index:0;
+    }
+
+    
+.yourcute{
+ color:gray;    
+ transition-duration: 0.6s;}
+.yourcute:hover{
+ color:lightgray;}
+
+    
+ 
 </style>
     
-
     
-<section style="border-bottom:solid white;" class="pp"> <p style="font-size:100px;border-bottom:solid white;margin:0px;"> M·I·R </p> </section>
-
-
-
-    
-<section class="papi">    
-
 
     <div class="unfortnuante-navigatiobefvg"> 
         <div class="insomnia currentpage">
-          <a href="">Home</a>
+          <a href="coc.html">Home</a>
         </div>
 
         <div class="insomnia">
-          <a href="">About</a>
+          <a href="coc.html">About</a>
         </div>
         
         <div class="insomnia">
-          <a href="">Discord</a>
+          <a href="coc.html">Discord</a>
         </div>
         
         <div class="insomnia">
-          <a href="">Baka</a>
+          <a href="coc.html">Baka</a>
         </div>
-    </div>
-
-
-    <div class="lucky-mistake"></div>
-
-
-    <div class="rightboop">
-        <p> miri#1863's website </p>
-        <p> <i> Version 2.0 </i> </p>
-        <p> Prev web update-date:3rd Aug 2020</p>
-        <p>Latest website update-date:28 dec 2020</p> 
     </div>
     
 
-    <div class="lucky-mistake"></div>
+    
+<section style="border-bottom:solid white;" class="pp"> <p style="font-size:100px;border-bottom:solid white;margin:0px; color:white;"> M·I·R </p> </section>
 
+    
+    
+<section class="papi">        
+
+    <div class="rightboop">
+    
+        <p> miri#1863's website </p>
+        <p> <i> Version 2.0 </i> </p>
+        <p> Prev web update-date:3rd Aug 2020</p>
+        <p>Latest website update-date:7th Jan 2021</p> 
+    
+    </div>
+    
+    
+    
+    <div class="lucky-mistake" onmouseover="uwu()" onmouseleave="owo()">
+        <div id="12">
+            <div class="ujuu"></div>
+            
+            
+            
+            
+                <button class="shinigami" onclick="oldie()">change-logs v1.5</button> 
+                <button class="shinigami" onclick="poiuyhtred()">change-log v2</button> 
+                <button class="shinigami" onclick="dea()">ideas</button>
+            
+            
+            
+            
+            
+                        <div class="oiuyhgt">
+                    <table>
+  <tr>
+    <td>
+     <ul>
+        <li> added `target="blank"` to all necessairy links </li>
+        <li> created c-logs and ideas page </li>
+        <li> imported fonts </li>
+        <li> gradient divs </li>
+        <li> home page redesign </li>
+        <li> button "hover" animation <a class="yourcute" target="_blank" href="https://www.youtube.com/embed/UU9wryzkpKU"> ¦watch¦ </a></li>
+        <li> edited favicon making it a png with a erased background <a class="yourcute" target="_blank" href="https://cdn.discordapp.com/attachments/722942891600773270/728280240748757082/JPEG_20200516_195731.jpg"> ¦old¦</a> --- <a class="yourcute" target="_blank" href    ="https://cdn.discordapp.com/attachments/730899219417661572/732191991173087322/20200713_120735.png"> ¦1.5current¦ </a></li>
+        <li> added target="_blank" to all video links, making them now open in a new tab </li>
+        <li> implemented c-logs and logs pages </li>
+        <li> made @media tags for mobile and pc design independence </li>
+        <li> home page redesign - added 2 gradiant boxes </li>
+        <li> removed all div boxes on home page </li>
+        <li> created a page for gullible people </li>
+        <li> added the "current" button hover effect</li>
+        <li> removed button's shadow </li>
+         <li> rounded buttons <a class="yourcute" target="_blank" href="https://cdn.discordapp.com/attachments/722942891600773270/728617982263164968/Screenshot_20200703_152706.jpg"> ¦click to veiw¦ </a></li>
+         <li> buttons <a class="yourcute" target="blank" href="https://cdn.discordapp.com/attachments/722942891600773270/728609722311245915/Screenshot_20200703_144606.jpg"> ¦click to veiw¦ </a> </li>
+        <li> added favicon <a class="yourcute" target="_blank" href="https://cdn.discordapp.com/attachments/722942891600773270/728280240748757082/JPEG_20200516_195731.jpg"> ¦click to veiw¦ </a> </li>
+        <li> removed heading/replaced with logo <a class="yourcute" target="_blank" href="https://cdn.discordapp.com/attachments/722942891600773270/726839810874146877/20200628_173413.png">¦click to veiw¦ </a></li>
+        <li> fixed ¦graph ql error¦ on widget</li>
+        <li> "basic device width mobile friendly-ness" </li>
+        <li> added embedded discord widget api </li>
+        <li> corrected head command </li>
+        <li> fixed title </li>
+    </ul>
+   <img src="https://cdn.discordapp.com/attachments/708603612502425692/739892707799072868/IMG_2496.gif" id="sameshitdifferentname"> 
+  </td>
+  </tr>
+</table></div>
+        
+            
+            
+            <div class="poiuyhtred">
+  <table>
+    <tr>
+        <td>
+        <ul>
+            <li>rebuilt the entire home ship from scratch</li>
+        </ul>
+            <img src="https://cdn.discordapp.com/attachments/708603612502425692/739892707799072868/IMG_2496.gif" id="sameshitdifferentname"> 
+        </td>
+    </tr>
+  </table>              
+            </div>
+            
+            
+            
+            
+            <div class="dea">
+  <table>
+    <tr>
+        <td>
+        <ul>
+            <li>build everything lmao idk</li>
+            <li>add fucntionality to all buttons</li>
+            <li>eat suin</li>
+        </ul>
+            <img src="https://cdn.discordapp.com/attachments/722609834482073632/733720969415229471/ac4d8336c4e00070-how-to-do-a-simple-pen-spin-anime-amino.gif" id="sameshitdifferentname"> 
+        </td>
+    </tr>
+  </table>              
+            </div>
+            
+        </div>
+    </div>  
+
+    
+    
+    
+    
+    
+    
 </section>    
+    
+    <section id=omni>
+    <div id="fuckinginsertion">    </div>
+    </section>
+    <div id="killkill">    </div>
+    
+    
+<script>
+        function uwu()
+        {
+        var x = document.getElementById("fuckinginsertion")
+    x.innerHTML = '<style>.shinigami{display:initial !important;}@media only screen and (max-width: 600px){.ujuu{display:none;}.shinigami{ margin-top:0px;}}</style>';}
+    
+    
+    
+        function owo()
+        {        
+        var x = document.getElementById("omni")
+  if (x.innerHTML === '<div id="fuckinginsertion"><style>.shinigami{display:initial !important;}@media only screen and (max-width: 600px){.ujuu{display:none;}.shinigami{ margin-top:0px;}}</style></div>') {
+      x.innerHTML = '<div id="fuckinginsertion"></div>';}}
+    
+        
+    
+    function oldie()
+        {
+        var x = document.getElementById("killkill")
+    x.innerHTML = '<style>.shinigami{display:initial; margin-top:0% !important;} .ujuu{display: none;} .oiuyhgt{display:flex;</style>';}
+    
+    
+    
+    
+    function poiuyhtred()
+        {
+        var x = document.getElementById("killkill")
+    x.innerHTML = '<style>.shinigami{display:initial; margin:0px !important;} .ujuu{display: none;} .poiuyhtred{display:flex;</style>';}
+    
+    
+    
+    
+    function dea()
+        {
+        var x = document.getElementById("killkill")
+    x.innerHTML = '<style>.shinigami{display:initial; margin:0px !important;} .ujuu{display: none;} .dea{display:flex;</style>';}
+    
+    
+    
+    
+    
+    
+        function owo()
+        {
+        var x = document.getElementById("killkill")
+    x.innerHTML = ' ';} 
+    
+    
+   
+    
+    
+</script>
+    
+    
+    
     
 </body></html>
