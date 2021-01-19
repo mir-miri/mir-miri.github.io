@@ -39,6 +39,7 @@ body{
  transition-property: width,height,transform,background,font-size,opacity;
  transition-duration: 1s;
  overflow:scroll;
+ z-index:1;
 }
 
 div.lucky-mistake:hover {
@@ -114,6 +115,7 @@ div.lucky-mistake:hover {
  text-align: center;
  padding: 10px;
  overflow: hidden;
+ z-index:1;
 }
 
 .rightboop{			
@@ -135,6 +137,7 @@ div.lucky-mistake:hover {
  text-align: center;
  padding: 10px;
  overflow: hidden;
+ z-index:1;
 }
 
 
@@ -146,107 +149,6 @@ div.lucky-mistake:hover {
 
     
     
-
-
-.insomnia{
- padding:auto;
- margin:40px 0px 40px 0px;
- height: 22px;
- border-bottom: 1px solid transparent;
- transition: border-bottom 0.5s;
-}
-
-.currentpage {
- border-bottom: 1px solid #2f4f4f;
- text-transform: uppercase;
-}
-
-.currentpage a {
- color: #2f4f4f !important;
-}
-
-.insomnia a {
- color: white;
- text-decoration: none;
- transition: color 0.5s;
-}
-
-.insomnia:hover {
- border-bottom: 1px solid #2f4f4f;
-}
-
-.insomnia a:hover {
- color: #2f4f4f;
-}
-
-.rightboop p: {
- color:white;
-    }
-.rightboop p:hover {
- transition: color 0.5s;
- color: #2f4f4f;
-}
-
-.poi   {
- color: white;
- margin: auto;
- padding: auto;
- height: -webkit-fill-available;
- z-index: 20;
-}
-.poi:hover   {
- color: #6b7cc1;
- height: -webkit-fill-available;
-}
-   
-.qoi   {
- color: white;
- margin: auto;
- padding: auto;
- height: -webkit-fill-available;
- z-index: 20;
- display:none;
-}
-.qoi:hover   {
- color: #6b7cc1;
- height: -webkit-fill-available;
-}
-
-
-.shinigami {
- width: auto;
- height: auto;
- margin: auto;
- margin-top: 15%;
- text-align:centre;
- transition:1s;
- z-index:123;
- display:none;
-    }
-
-.shinigami:hover {
- border:none;
- background-color:  #a178b4 ;
- color:  #fff;
- text-decoration: underline overline;
- text-decoration-color: #fff;
-    }
-    
-    
-    
-    
-    
-    
-    
-@media only screen and (max-width: 600px){
-div.lucky-mistake:hover {
- height:70%;
-    }
-    
-.shinigami{ 
- margin-top:0px;
-    }
-    }
 
     
     
