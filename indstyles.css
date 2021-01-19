@@ -15,7 +15,14 @@ body{
  color: transparent;
  background: linear-gradient(2deg, #fde796, #fbe281, #1d8aa5, #1d496c, rgb(7 38 63));
  background-size: 600% 150%;
- animation: lkd 30s ease infinite;}
+ animation: lkd 30s ease infinite;
+ -ms-overflow-style: none;  /* IE and Edge */
+ scrollbar-width: none;  /* Firefox */
+}
+.luck-mistake::-webkit-scrollbar {
+  display: none;
+}
+
      
 
 
