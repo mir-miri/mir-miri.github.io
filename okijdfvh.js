@@ -44,49 +44,7 @@
 							storageKey: null
 						}]
 					}]
-				}, {
-					kind: "LinkedField",
-					alias: null,
-					name: "tatsu",
-					storageKey: null,
-					args: null,
-					concreteType: "UserInfoTatsu",
-					plural: !1,
-					selections: [{
-						kind: "ScalarField",
-						alias: null,
-						name: "title",
-						args: null,
-						storageKey: null
-					}, {
-						kind: "LinkedField",
-						alias: null,
-						name: "supporter",
-						storageKey: null,
-						args: null,
-						concreteType: "TatsuSupporter",
-						plural: !1,
-						selections: [{
-							kind: "ScalarField",
-							alias: null,
-							name: "isSupporter",
-							args: null,
-							storageKey: null
-						}, {
-							kind: "ScalarField",
-							alias: null,
-							name: "tier",
-							args: null,
-							storageKey: null
-						}, {
-							kind: "ScalarField",
-							alias: null,
-							name: "status",
-							args: null,
-							storageKey: null
-						}]
-					}]
-				}],
+				},],
 				hash: "eizQCoZ-zF3-woGNXWyr6gL1CAoqeiLa"
 			};
 			e.exports = l
@@ -160,83 +118,7 @@
 				o = a("IP2g"),
 				c = a("8tEE");
 			t.a.createElement;
-			n.a = Object(i.createFragmentContainer)((function(e) {
-				var n, a, l, r, t = e.userInfo,
-					i = t.discord,
-					u = void 0 === i ? {} : i,
-					d = t.tatsu;
-				return Object(s.jsx)("div", {
-					css: {
-						display: "flex",
-						justifyContent: "center",
-						padding: "32px 25px 16px",
-						"@media(max-width: 720px)": {
-							flexDirection: "column",
-							textAlign: "center"
-						}
-					}
-				}, (null === u || void 0 === u ? void 0 : null === (n = u.avatar) || void 0 === n ? void 0 : n.url) && Object(s.jsx)("div", {
-					css: {
-						background: u.avatar.url ? 'url("'.concat(u.avatar.url, '")') : "none",
-						backgroundRepeat: "no-repeat",
-						backgroundSize: "cover",
-						borderRadius: "50%",
-						border: "4px solid #E2E2E2",
-						height: 128,
-						width: 128,
-						marginRight: 30,
-						"@media(max-width: 720px)": {
-							margin: "auto auto 16px"
-						}
-					},
-					title: "".concat(null === u || void 0 === u ? void 0 : u.username, "'s Avatar")
-				}), Object(s.jsx)("div", {
-					css: {
-						fontWeight: 500,
-						alignSelf: "stretch",
-						display: "flex",
-						flexDirection: "column",
-						justifyContent: "space-between",
-						marginBottom: 20
-					}
-				}, Object(s.jsx)("p", {
-					css: {
-						fontSize: "3rem",
-						margin: 0,
-						"@media(max-width: 720px)": {
-							fontSize: 18
-						}
-					}
-				}, null === u || void 0 === u ? void 0 : u.username, Object(s.jsx)("span", {
-					css: {
-						fontSize: "2rem",
-						color: "#9A9A9A",
-						"@media(max-width: 720px)": {
-							fontSize: 14
-						}
-					}
-				}, "#", null === u || void 0 === u ? void 0 : u.discriminator)), d.title && Object(s.jsx)("p", {
-					css: {
-						fontSize: "1.8rem",
-						color: "#9A9A9A",
-						margin: "8px 0px"
-					}
-				}, d.title), (null === (a = d.supporter) || void 0 === a ? void 0 : a.isSupporter) && "cancelled" !== (null === (l = d.supporter) || void 0 === l ? void 0 : l.status) && Object(s.jsx)("p", {
-					css: {
-						fontSize: "1.8rem",
-						color: "#F96854",
-						textShadow: "0px 0px 8px rgba(249, 104, 84, 0.25)",
-						margin: 0
-					}
-				}, Object(s.jsx)(o.a, {
-					css: {
-						filter: "drop-shadow(0px 0px 6px #D01F07)",
-						fontSize: "1.4rem",
-						marginRight: 8
-					},
-					icon: c.b
-				}), "supporter", "+".repeat((null === (r = d.supporter) || void 0 === r ? void 0 : r.tier) - 1))))
-			}), {
+			n.a = Object(i.createFragmentContainer)((function(e), {
 				userInfo: void 0 !== l ? l : l = a("/vXk")
 			})
 		},
@@ -309,12 +191,11 @@
 								}]
 							}, l]
 						}]
-					},
-					params: {
+					},params: {
 						operationKind: "query",
 						name: "profileQuery",
 						id: null,
-						text: "query profileQuery {\n  me {\n    originalID\n    ...Header_userInfo\n        }\n    id\n  }\n}\n\nfragment Header_userInfo on User {\n  discord {\n    username\n    discriminator\n    avatar {\n      url\n      id\n    }\n  }\n  }\n",
+						text: "query profileQuery {\n  me {\n    originalID\n    ...Header_userInfo\n      id\n  }\n}\n\nfragment Header_userInfo on User {\n  discord {\n    username\n    discriminator\n    avatar {\n      url\n      id\n    }\n  }\n  }\n}\n",
 						metadata: {}
 					}
 				}
