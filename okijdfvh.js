@@ -118,7 +118,7 @@
 				o = a("IP2g"),
 				c = a("8tEE");
 			t.a.createElement;
-			n.a = Object(i.createFragmentContainer)(function(e), {
+			n.a = Object(i.createFragmentContainer)(function(e){
 				userInfo: void 0 !== l ? l : l = a("/vXk");
 			})
 		},
