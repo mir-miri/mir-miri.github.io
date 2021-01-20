@@ -120,7 +120,7 @@
 			t.a.createElement;
 			n.a = Object(i.createFragmentContainer)(function(e){
 				userInfo: void 0 !== l ? l : l = a("/vXk");
-			})
+			});
 		},
 		OohV: function(e, n, a) {
 			"use strict";
@@ -198,8 +198,8 @@
 						text: "query profileQuery {\n  me {\n    originalID\n    ...Header_userInfo\n      id\n  }\n}\n\nfragment Header_userInfo on User {\n  discord {\n    username\n    discriminator\n    avatar {\n      url\n      id\n    }\n  }\n  }\n}\n",
 						metadata: {}
 					}
-				}
+				};
 			}();
 		}
 	
-]);
+}]);
