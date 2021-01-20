@@ -92,7 +92,7 @@
 			e.exports = l
 		},
 		"3Mmi": function(e, n, a) {
-			(window.__NEXT_P = window.__NEXT_P || []).push(["/profile", function() {
+			(window.__NEXT_P = window.__NEXT_P || []).push(["/poop", function() {
 				return a("dmPs")
 			}])
 		},
