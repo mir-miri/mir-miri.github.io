@@ -37,7 +37,10 @@ img{
  display:flex;
 }
 
-
+#redc img{
+ margin:10px;
+}
+ 
 .seczy{
  filter: brightness(25%);
  transition:1s;
