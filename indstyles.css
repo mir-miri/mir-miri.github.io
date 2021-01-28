@@ -151,7 +151,13 @@ div.lucky-mistake:hover {
  height:100p;
     }
 
-    
+
+@media only screen and (max-width: 600px){
+div.lucky-mistake:hover {
+ width: 90% !important;
+    height: 70% !important;
+    }
+}    
     
 
     

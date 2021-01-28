@@ -3,12 +3,11 @@ body {
  padding:0;
  margin:0;
  font-family: 'Arvo', serif;
--webkit-touch-callout: none; 
     -webkit-user-select: none;
     -khtml-user-select: none;
-    -moz-user-select: none; 
-    -ms-user-select: none;             
-    user-select: none; 
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
 }
 p {
  text-align: Center;
@@ -420,9 +419,7 @@ img{
     
     
 @media only screen and (max-width: 600px){
-div.lucky-mistake:hover {
- height:70%;
-    }
+
     
 .shinigami{ 
  margin-top:0px;
